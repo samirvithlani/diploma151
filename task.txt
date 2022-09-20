@@ -1,0 +1,6 @@
+project -->app --> home
+
+4 pages about us
+contact us
+dashboard
+blog
