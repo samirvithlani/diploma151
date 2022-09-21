@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>PRICE</th>
+            <th>Qty</th>
+        </tr>
+        {% for p in products  %}
+        <tr>
+            <td>{{p.name}}</td>
+            <td>{{p.price}}</td>
+            <td>{{p.qty}}</td>
+        </tr>
+        
+        {% endfor %}
+
+    </table>
+</body>
+</html>

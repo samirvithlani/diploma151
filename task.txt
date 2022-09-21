@@ -4,3 +4,30 @@ project -->app --> home
 contact us
 dashboard
 blog
+
+=-----
+-----------------------------------------------------------
+
+TASK
+Student
+id serial
+name
+email
+password
+age int
+per flaot
+---------
+
+course
+------
+id
+name
+fees
+duration
+-------
+univercity
+id
+name
+city
+state
+country

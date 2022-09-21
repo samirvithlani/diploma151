@@ -1,0 +1,45 @@
+\c diploma_ecom
+\dt
+
+
+create table employee(id serial primary key,name varchar(30),email varchar(30),password varchar(30));
+\dt
+
+insert
+
+insert into employee(name,email,password)values('raj','raj@gmail.com','raj@123');
+insert into employee(name,email,password)values('vijay','vijay@gmail.com','jay@123');
+
+get:
+
+select * from employee;
+
+DELETE:
+delete from employee where id =1;
+
+update:
+
+update employee set name = 'vijay' where id =2;4
+
+update employee set password ='1234' where name = 'vijay';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
